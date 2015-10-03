@@ -1,0 +1,33 @@
+ //========================================================================\\
+||                                                                          ||
+||            __--==| All Music Composed by Jake Kaufman |==--__            ||
+||           Like the music? Listen & Download them via Bandcamp!           ||
+||         virt.bandcamp.com/album/shovel-knight-original-soundtrack        ||
+||                                                                          ||
+ \\========================================================================//
+ //========================================================================\\
+||                                                                          ||
+||                __--==| Installation Instructions |==--__                 ||
+||                                                                          ||
+||         1. Backup the orignal music files for Rivals of Aether           ||
+||            locaed in your steamapps folder:                              ||
+||            (Steam/steamapps/common/Rivals of Aether)        ||
+||                                                                          ||
+||         2. Copy and Paste all the music_xxxx_xxx.ogg files from here     ||
+||            to the Rivals of Aether folder in your steamapps              ||
+||            (Steam/steamapps/common/Rivals of Aether)        ||
+||                                                                          ||
+||         3. Make sure to save these files, since you will need to         ||
+||            copy and paste them again after every update to Rivals        ||
+||            of Aether.                                                    ||
+||                                                                          ||
+ \\========================================================================//
+ //========================================================================\\
+||                                                                          ||
+||                      __--==| Soundpack Credits |==--__                   ||
+||                                                                          ||
+||         Open and Loop file Compatibilty Editing by: WorseDoughnut        ||
+||                                                                          ||
+||         Original Concept posted to Aetherboards by:     Nix              ||
+||                                                                          ||
+ \\========================================================================//
