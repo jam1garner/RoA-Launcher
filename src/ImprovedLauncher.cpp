@@ -28,20 +28,34 @@ int main(){
     if(ifstream("launcher.dat")&&!(GetAsyncKeyState(VK_LCONTROL))){//If left control is not held down and the data file is found.
         cout<<"launcher.dat found. Proceeding to switch files.";
     }else{//No data file or left control override
-        int temp0;
+        int temp0=0;
         cout<<"launcher.dat not found. Creating now...\n\nNumber of splash screen alternatives: ";
-        cin>>temp0;
+        while(temp0<=0){
+            cin>>temp0;
+            if(temp0=0)
+                cout<<"Cannot be less than 1.\nNumber of splash screen alternatives: ";
+        }
         ofstream launcherData;
         launcherData.open("launcher.dat");
         launcherData<<temp0<<endl;
         cout<<"Music pack type (1)Select on Launch (2)Random (3)Select now: ";
-        cin>>temp0;
+        temp0=0;
+        while(temp0<1||temp0>3){
+            cin>>temp0;
+            if(temp0<1||temp0>3)
+                cout<<"Cannot be 0.\nType: ";
+        }
         launcherData<<temp0<<endl;
         if(temp0==3)
             cout<<"Input music pack number: ";
         else
             cout<<"Number of music packs: ";
-        cin>>temp0;
+        temp0=0;
+        while(temp0<=0){
+            cin>>temp0;
+            if(temp0<=0)
+                cout<<"Number of music packs cannot be less than 1";
+        }
         launcherData<<temp0<<endl;
         launcherData.close();
         cout<<"Just a reminder that you can change this by holding left control while you launch.";
